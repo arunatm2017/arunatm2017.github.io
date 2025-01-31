@@ -21,7 +21,7 @@ body[a="dark"] {
     body[a="auto"] iframe {
       filter: invert(1); } }
 html, body {
-  background: white; }
+  background: antiquewhite; }
 
 html {
   height: 100%;
@@ -32,9 +32,9 @@ body {
   font-family: monospace;
   font-size: 16px;
   line-height: 1.4;
-  margin: 0;
-  min-height: 100%;
-  overflow-wrap: break-word; }
+  /* min-height: 100%; */
+  overflow-wrap: break-word;
+}
 
 .post-meta {
   text-align: right; }
@@ -97,4 +97,16 @@ img {
   display: block;
   margin: 0 auto; }
 
+  ul {
+      list-style-type: decimal; /* Change bullets to numbers */
+      text-align: center; /* Center text */
+      padding-left: 0; /* Remove default left padding */
+  }
+
+  /* Align numbers and list items properly */
+ 
+ol {
+  margin: auto;
+  text-align: center;
+}
 /*# sourceMappingURL=main.css.map */
